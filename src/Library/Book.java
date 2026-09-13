@@ -23,7 +23,9 @@ public class Book extends LibraryItem {
 
     @Override
     public void returnItem() {
-
+        available = true;
+        System.out.println(title + " returned.");
+        System.out.println(title + " is now available.");
     }
 
     @Override
