@@ -19,14 +19,14 @@ public class Main {
         book1.returnItem();
 
         library.borrowByTitle("Dune");
-        /*
+
         library.borrowByTitle("Fake Book");
 
         library.borrowByTitle("National Geographic");
 
         library.printSummary();
 
-         */
+
         Catalog<Book> bookCatalog = new Catalog<>();
         bookCatalog.addItem(book1);
         bookCatalog.addItem(book2);
